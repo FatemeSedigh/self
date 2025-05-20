@@ -7,15 +7,15 @@ values ( 'maryam', '0152098765',false,true);
 select * from Users;
 
 insert into student( main_id, student_number, field)
-values (5,'40312033','math');
+values (1,'40312033','math');
 insert into student( main_id, student_number, field)
-values (6,'40312012','math');
+values (2,'40312012','math');
 select * from student;
 
 insert into professor( main_id, personnel_number, Department, academic_rank)
-values (5,'128','Mathematics and Computer Science','3');
+values (1,'128','Mathematics and Computer Science','3');
 insert into professor( main_id, personnel_number, Department, academic_rank)
-values (7,'156','Mathematics and Computer Science','6');
+values (3,'156','Mathematics and Computer Science','6');
 select * from professor;
 
 insert into main_menu( name, price)
@@ -35,9 +35,9 @@ values (3,'2025-05-20');
 select * from menu;
 
 insert into food_order( id_Users, id_food, number)
-values (5,2,3);
+values (1,2,3);
 insert into food_order( id_Users, id_food, number)
-values (6,1,2);
+values (2,1,2);
 insert into food_order( id_Users, id_food, number)
-values (7,2,7);
+values (3,2,7);
 select * from food_order;
